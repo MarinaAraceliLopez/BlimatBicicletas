@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bicicletería Blimat</title>
+    <link rel="shortcut icon" href="./images/marc.png" type="image/x-icon" />
+   
+    <link rel="stylesheet" href="./css/estilos.css" />
+      
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+
+    <meta name="theme-color" content="#2091F9" />
+    <meta name="title" content="Blimat" />
+    <meta
+      name="description"
+      content="Es una tienda de repuestos y bicicletas."    />   
+    <meta property="og:title" content="Bicicletería" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+
+  <body>      
+    <!--<section class="seccionToggle">      
+     <div class="wrap">
+       
+        <h2>Somos una bicicletería con una gran experiencia.</h2>
+        <p>Le ofrecemos a nuestros clientes la mejor <b>calidad y precios</b>.</p>
+        
+        <video src="./images/BlimatVideo.mp4" controls width="100%" height="80%" ></video>
+        
+        <a href="#" id="btn1-toggle" class="btn1-toggle" ><img src="./images/BlimatMarcaBlanco1.png"  alt="" class="image" ></a>
+      </div>      
+    </section>-->     
+               
+              
+       
+    <header class="hero">      
+      <nav class="nav container">       
+          <div class="nav__logo">
+            <a href="index1.html" id="btn-toggle" class="btn-toggle"><img src="./images/BlimatMarcaBlanco1.png"  alt="" class="image" ></a> 
+          </div>
+      </nav>  
+      <a href="https://wa.me/5493794596164?text=Hola,%20quisiera%20hacer%20una%20consulta:%20" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+        <a href="https://www.facebook.com/BlimatCorrientes" class="facebook" target="_blank"> <i class="fa fa-facebook facebook-icon" aria-hidden="true"></i></a>  
+        <a href="https://bicicleteria-blimat.negocio.site/" class="www" target="_blank"><img src="./images/earth-grid-symbol.png"  width="60%" height="60%" alt="" class="www-icon"> </a>            
+    </header>
+        <main>          
+        <div class="contenedor-texto">            
+            <p class="principal">
+              Le declaramos <b><i>nuestro amor</i></b> a la bicicleta.<br />
+
+            </p>
+            <p class="tituloSecundario">
+              ¿Y vos a quien? <br/>             
+              <span class="word">
+                <span class="blink_me" id="rotate">
+                  <span>A tu Familia.</span>
+                  <span>A tu Pareja.</span>
+                  <span>A tu Mascota.</span>
+                  <span>A tu Friend.</span>
+                  <span>¿O a alguien más?</span>
+                </span>
+              </span>             
+            </p> 
+        </div>                                
+      <div style="text-align: center;">
+      <div class="contenedor-texto">              
+        <button  id="btn-abrir-popup" class="btn-abrir-popup">
+        Click aquí.      
+      </button>   
+            
+    </main>      
+      <div  class="overlay" id="overlay">
+        <div class="popup" id="popup">          
+          <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"
+            ><i class="fas fa-times"></i
+          ></a>
+          <p>En este día queremos: <br> <i>Que recibas un <b> abrazo. </b></i> </p>          
+          <form action="">
+            <div class="contenedor-inputs">
+              <div class="container1">
+                <h4 id="resultt">&nbsp;Enviando Abrazo Virtual</h4>
+                
+                <img  src="./images/personaje1.gif" class="testimony__img1"   width="100%" height="100%">              
+                <div class="box">                  
+                  <div class="box__loading"></div>
+                </div>
+                <h4 id="state-messagee"><i> cargando... </i></h4>                
+              </div>             
+            </div>             
+          </form>
+        </div>
+      </div>   
+    </div>    
+    
+   
+       
+    <script src="./js/popup.js"></script>
+    <script src="./js/animation.js"></script>    
+  <!-- <script src="./js/seccionn.js"></script> 
+   <script src="./js/seccionn1.js"></script>-->
+  </body>
+</html>
